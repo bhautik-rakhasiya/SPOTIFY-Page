@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assest/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option nav-option">
+                        <img src="./assest/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box"></div>
+                <div class="box">
+                    <p class="p1">Create your first playlist</p>
+                    <p class="p2">It's easy, we'll help you</p>
+                    <button class="badge">Create playlist</button>
+                </div>
+                <div class="box">
+                    <p class="p1">Let's find some podcasts to follow</p>
+                    <p class="p2">We'll keep you updated on new episodes</p>
+                    <button class="badge">Browse podcasts</button>
+                </div>
+                
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-icons">
+                    <img src="./assest/backward_icon.png">
+                    <img src="./assest/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-option">
+                    <button class="badge nav-item hide">Explore Primium</button>
+                    <button class="badge nav-item" style="background-color: black; color: white;"><i class="fa-regular fa-circle-down" style="padding-right: 7px;"></i>Install app</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>    
+            </div>
+
+                
+            <h2>Recently played</h2>
+            <div class="cards-cointainer">
+                <div class="card"> 
+                    <img src="./assest/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of most played tracks...</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/emranhasmirecently.png" class="card-img">
+                    <p class="card-title">Emraan Hashmi Hits</p>
+                    <p class="card-info">These are all the hit songs from movie or album...</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/card2img.jpeg" class="card-img">
+                    <p class="card-title">Mahiye Jinna Sohna</p>
+                    <p class="card-info">Darshan Raval</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/try1.png" class="card-img">
+                    <p class="card-title">Shree krishna Geeta..</p>
+                    <p class="card-info">Bhaskar Jyoti Dutta</p>
+                </div>
+            </div>
+
+            <h2>Made For You</h2>
+            <div class="cards-cointainer">
+                <div class="card"> 
+                    <img src="./assest/dailymix1.png" class="card-img">
+                    <p class="card-title">Daily Mix 1</p>
+                    <p class="card-info">Pritam, A.R. Rehman, Kishor Kumar and more..</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/dailymix2.png" class="card-img">
+                    <p class="card-title">Daily Mix 2</p>
+                    <p class="card-info">Darshan Raval ,Kamal Khan and more..</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/dailymix3.png" class="card-img">
+                    <p class="card-title">Daily Mix 3</p>
+                    <p class="card-info">A.R. Rehman, Vishal-Shekhar, Pritam and more</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/dailymix4.png" class="card-img">
+                    <p class="card-title">Daily Mix 4</p>
+                    <p class="card-info">Darshan Raval, Mitraz, Sachet Tondon and more..</p>
+                </div>
+            </div>
+
+            <h2>Your Top Mixes</h2>
+            <div class="cards-cointainer">
+                <div class="card"> 
+                    <img src="./assest/topmix1.png" class="card-img">
+                    <p class="card-title">Hindi Mix</p>
+                    <p class="card-info">Arijit Singh, Jeet Gannguli, Shankar-Ehasaan-Loy and</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/topmix2.png" class="card-img">
+                    <p class="card-title">KK Mix</p>
+                    <p class="card-info">Pritam, Vishal Dadlani and Atif Aslam</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/topmix3.png" class="card-img">
+                    <p class="card-title">Arijit Singh Mix</p>
+                    <p class="card-info">Vishal Dadlani, Atif Aslam and KK</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/topmix4.png" class="card-img">
+                    <p class="card-title">Pritam Mix</p>
+                    <p class="card-info">Vishal Dadlani, Udit Narayan and Mohit..</p>
+                </div>
+            </div>
+
+            <h2>Fresh new music</h2>
+            <div class="cards-cointainer">
+                <div class="card"> 
+                    <img src="./assest/fresh1.png" class="card-img">
+                    <p class="card-title">New in Dance</p>
+                    <p class="card-info">Latest floor filler to kickstart your party.Cover.</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/fresh2.png" class="card-img">
+                    <p class="card-title">Latest Romance ...</p>
+                    <p class="card-info">Bringing out the best of latest love tracks Cover...</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/fresh3.png" class="card-img">
+                    <p class="card-title">Trending Now Tamil</p>
+                    <p class="card-info">Top Trending Tamil Songs on Social Media Cover:JDX</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/fresh4.png" class="card-img">
+                    <p class="card-title">New Music Hindi</p>
+                    <p class="card-info">Your weekly does of the latest Hindi tracks. Cover..</p>
+                </div>
+            </div>
+
+            <h2>Love is...Love</h2>
+            <div class="cards-cointainer">
+                <div class="card"> 
+                    <img src="./assest/love1.png" class="card-img">
+                    <p class="card-title">Bollywood Mush</p>
+                    <p class="card-info">Let these song be the background score to your..</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/love2.png" class="card-img">
+                    <p class="card-title">pov: you're in love</p>
+                    <p class="card-info">Uff, you've fallen! &#128156;</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/love3.png" class="card-img">
+                    <p class="card-title">Purely kaadhal</p>
+                    <p class="card-info">All the mushy feels from top romantic hits. Cover..</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/love4.png" class="card-img">
+                    <p class="card-title">Purely Prema</p>
+                    <p class="card-info">Superhit love songs served hear. Cover: Hi..</p>
+                </div>
+            </div>
+
+            <h2>Show to try</h2>
+            <div class="cards-cointainer">
+                <div class="card"> 
+                    <img src="./assest/try1.png" class="card-img">
+                    <p class="card-title">Shri krishna Geeta..</p>
+                    <p class="card-info">Bhaskar Jyoti Dutta</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/try2.png" class="card-img">
+                    <p class="card-title">Chanakya Niti</p>
+                    <p class="card-info">Kiran Chavda</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/try3.png" class="card-img">
+                    <p class="card-title">SHRIMAD BHAGWAD</p>
+                    <p class="card-info">Amit Wadhwa</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/try4.png" class="card-img">
+                    <p class="card-title">Dastan Khauf ki..</p>
+                    <p class="card-info">Dainik Jagran</p>
+                </div>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="cards-cointainer">
+                <div class="card"> 
+                    <img src="./assest/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your weekly updates of most played tracks...</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs - Global</p>
+                    <p class="card-info">Your weekly updates of most played tracks...</p>
+                </div>
+                <div class="card"> 
+                    <img src="./assest/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs - India</p>
+                    <p class="card-info">Your weekly updates of most played tracks...</p>
+                </div>
+            </div>
+        
+        <div class="footer">
+            <div class="line"></div>
+        </div>
+        
+        </div>
+
+
+
+        <div class="music-player">
+            <div class="album">
+                
+                    <img src="./assest/album_picture.jpeg" class="album-img">
+                <div class="album-text">
+                    <p class="album-info" style="font-size: 0.85rem; font-weight: 600;">Daylight</p>
+                    <p class="album-info">David Kushner</p>
+                </div>
+                <div class="album-icon">
+                    <img src="./assest/album_icon1.png">
+                    <img src="./assest/album_icon2.png" style="height: 2rem; width: 2rem;">
+                </div>
+                    
+        
+                
+            </div>
+            <div class="playback-bar">
+                <div class="player-icon">
+                    <img src="./assest/player_icon1.png" class="player-bar-icon">
+                    <img src="./assest/player_icon2.png" class="player-bar-icon">
+                    <img src="./assest/player_icon3.png" class="player-bar-icon" style="height: 2rem; width: 2rem; opacity: 1;">
+                    <img src="./assest/player_icon4.png" class="player-bar-icon">
+                    <img src="./assest/player_icon5.png" class="player-bar-icon">
+                </div>
+                <div class="player-sidebar">
+                    <span>00:00</span>
+                    <input type="range" min="0" max="100" step="1" class="progress-bar">
+                    <span>3:33</span>
+                </div>
+                
+            </div>
+            <div class="controls">
+                <img src="./assest/controls_icon1.png" class="control-icon" style="height: 2rem; width: 2rem;">
+                <img src="./assest/controld_icon2.png" class="control-icon" style="height: 2rem; width: 2rem;">
+                <img src="./assest/controls_icon3.png" class="control-icon">
+                <img src="./assest/controls_icon4.png" class="control-icon">
+                <img src="./assest/controls_icon5.png" class="control-icon" style="height: 2rem; width: 2rem;">
+                <input type="range" min="0" max="100" step="1" class="progress-bar" style="width: 30%; padding-right: 25px;">
+
+
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
