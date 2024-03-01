@@ -1,2 +1,2 @@
 # SPOTIFY-Page
-This is SPTIFY clone Home-page.
+This is SPOTIFY clone Home-page.
